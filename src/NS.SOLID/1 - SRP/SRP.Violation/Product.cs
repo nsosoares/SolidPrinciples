@@ -6,6 +6,11 @@ namespace NS.SOLID.SRP.Violation
 {
     public class Product
     {
+        /*
+         This class violates the SRP due to having 
+         multiple reasons to change it
+        */
+
         public int Id { get; set; }
         public DateTime RegistrationDate { get; set; }
         public string Name { get; set; }

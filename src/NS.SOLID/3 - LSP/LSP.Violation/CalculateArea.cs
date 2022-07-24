@@ -2,6 +2,12 @@
 {
     public class CalculateArea
     {
+        /*
+         This class implements the LSP but due to the change in 
+         behavior of the rectangle base class in the square class 
+         it ends up generating a bug
+         */
+
         private static void GetAreaValueRetangle(Rectangle rectangle)
         {
             Console.Clear();
